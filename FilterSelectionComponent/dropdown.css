@@ -1,0 +1,36 @@
+
+.tkey-dropdown {
+    text-align: left;
+    position: relative;
+    z-index: 1;
+}
+.tkey-dropdown .dropdown-options-container{
+    display: none;
+}
+.tkey-dropdown .show{
+    display: block;
+    position: absolute;
+    left: 0;
+    top:30px;
+    width: 100%;
+    z-index: 1;
+    background-color: white;
+}
+.dropdown-options{
+    height: 50px;
+    padding: 12px;
+    border-bottom : 1px solid #666666;
+    
+}
+.tkey-dropdown i {
+    border: 2px solid #666666;
+    border-width: 0 3px 3px 0;
+    padding: 3.5px;
+    margin: 3px 5px 5px 10px;
+    float : right;
+
+}
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
